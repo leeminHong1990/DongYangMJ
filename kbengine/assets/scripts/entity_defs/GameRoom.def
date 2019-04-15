@@ -1,0 +1,113 @@
+<root>
+	<Volatile>
+		<position> 0 </position>
+		<yaw> 0 </yaw>
+		<pitch> 0 </pitch>
+		<roll> 0 </roll>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	GameObject		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<roomId>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+		</roomId>
+		<owner_uid>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+		</owner_uid>
+		<game_round>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		8				</Default>
+		</game_round>
+		<player_num>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		4				</Default>
+		</player_num>
+		<king_num>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</king_num>
+		<pay_mode>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</pay_mode>
+		<game_mode>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</game_mode>
+		<round_max_lose>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</round_max_lose>
+		<game_max_lose>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</game_max_lose>
+		<lucky_num>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</lucky_num>
+		<hand_prepare>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</hand_prepare>
+		<room_type>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</room_type>
+
+		<king_mode>
+		    <Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</king_mode>
+		<begin_dealer_mul>
+		    <Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</begin_dealer_mul>
+		<three_job>
+		    <Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</three_job>
+		<pong_useful>
+		    <Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</pong_useful>
+		<bao_tou>
+		    <Type>			UINT8			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+		</bao_tou>
+	</Properties>
+
+
+	<BaseMethods>
+		<swapTileToTop>
+			<Arg>		UINT32		</Arg>
+		</swapTileToTop>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+
